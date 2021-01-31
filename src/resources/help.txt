@@ -1,0 +1,21 @@
+Reels - the barebones programming language
+
+Usage, "%s <mode> <mode specific arguments>"
+
+Modes:
+    help (no arguments):
+        Displays this help message
+
+    repl (no arguments):
+        runs the Reels repl
+
+    run-str (str) (optional --debug, -d or /DEBUG):
+        Runs \"str\" as a Reels program
+        If any of the debug flags are present, it shows the VM info at the end
+
+    run (file) (optional --debug, -d or /DEBUG):
+        Runs the file (doesn't care about the extension)
+        If any of the debug flags are present, it shows the VM info at the end
+    moo
+        This language has Super Cow Powers
+
